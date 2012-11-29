@@ -1,0 +1,223 @@
+/*
+Theme Name: eyeseenull
+Theme URI: 
+Author: kzhiquan
+Author URI: www.eyeseenull.me
+Description: simple
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: eyeseenull
+*/
+
+/**************************** the body summery thing *********/
+body{
+	margin-left:23%;
+	margin-right: 27%;
+	margin-top:6px;
+	margin-bottom:0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/********************************header***********************/
+body .header{
+	margin:0px;
+	padding:0px;
+}
+
+.header .blogname{
+	font-size: 30px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+}
+
+.header .menu{
+	background:#83B4D8;
+	margin-left:0px;
+	margin-top: 10px;
+	padding:5px;
+	padding-left:0px;
+}
+
+.header .menu ul{
+	overflow:hidden;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	/*display:inline;*/
+}
+
+.header .menu li{
+	float:left;
+	margin-right:20px;
+}
+
+.header .menu a{
+	font-weight:bold;
+	font-size: 18px;
+}
+ 
+
+
+/********************************primary***********************/
+body .content{
+	margin: 0px;	
+	padding: 0px;
+	min-height:450px;
+}
+
+body .content .primary{
+	padding:0px;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+/********************************primary article***********************/
+body .content .primary article{
+	padding-bottom: 20px;
+}
+
+body .content .primary article .entry-header{
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom:#0000FF solid 1px;
+}
+
+body .content .primary article .entry-meta{
+	font-size: 12px;
+	margin-left:10px;
+	margin-top:3px;
+	display:inline;
+	font-weight:normal;
+	float:right;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+body .content .primary article .entry-content{
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top:10px;
+	over-flow:hidden;
+}
+
+body .content .primary article .entry-content .more-link{
+	font-size: 12px;
+	float: right;
+}
+
+/********************************comments***********************/
+body .content .primary .comments{
+	/*border-top:#B6BDD2 solid 1px;*/
+}
+
+
+.comments .comment-title{
+	background:#E5EFFD;	
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+.comments .commentlist{
+	list-style-type: none;
+	padding-left:0px;
+}
+
+.comments .commentlist li{
+	margin-left:0px;
+}
+
+.comments .commentlist li .comment-meta{
+	font-size: 12px;
+}
+
+.comments .commentlist li .comment-meta .comment-item-num{
+	background:#E5EFFD;	
+	float:right;
+}
+
+.comments .commentlist li .comment-content{
+	font-size: 14px;
+}
+
+.comments #respond #reply-title{
+	background:#E5EFFD;	
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;
+	margin-left:0px;
+	margin-top: 10px;
+	padding-left:0px;
+}
+
+.comments #commentform{
+	font-size:14px;
+}
+.comments #commentform .comment-notes{
+	display:none;
+}
+
+.comments #commentform .form-allowed-tags{
+	display:none;
+}
+
+.comments #commentform .comment-form-comment label{
+	display:none;
+}
+
+
+/********************************wp-pagenavi***********************/
+body .content .primary .wp-pagenavi{
+	font-size:15px;
+	margin-top:40px;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.primary .wp-pagenavi span{
+	border-width: 0px;
+}
+
+.primary .wp-pagenavi .pages{
+	padding-left:0px;
+}
+
+.primary .wp-pagenavi a{
+	border-width: 0px;
+}
+
+
+
+
+
+
+/********************************footer***********************/
+body .footer{
+	border-top:#B6BDD2 solid 1px;
+	font-size:14px;
+	font-style:italic;
+	margin-top:8px;
+}
+
+/********************************stat-script***********************/
+body .stat-script a img{
+	dispaly:none;
+}
+
+
